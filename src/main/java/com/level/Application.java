@@ -17,6 +17,7 @@ public class Application {
         middle2(num2);
         arrString();
         getPair(20);
+        getNum();
     }
 
     public static int div(int num1, int num2) { // 몫 구하기
@@ -54,5 +55,15 @@ public class Application {
             }
         }
         return cnt;
+    }
+
+    public static int  getNum() { // 두 수의 나눗셈
+        int num1 = 1;
+        int num2 = 16;
+        double num = (double) num1/ num2 * 1000;
+        int result = (int) num;
+
+        System.out.println(result);
+        return result;
     }
 }
